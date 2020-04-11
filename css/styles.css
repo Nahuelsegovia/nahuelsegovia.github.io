@@ -1,0 +1,152 @@
+body{
+    background: #2d2e33;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+/* DIV PERFIL */
+.perfil{
+    font-size: 14px;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+/* IMAGEN PERFIL */
+.imagenPerfil{
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagenPerfil:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+
+/* BOTONES */ 
+.perfil button, .perfil h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil .botones{
+    border: none;
+    margin:3px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil .uno{
+    background: #0caacf;
+}
+
+.perfil .dos{
+    background: #ee4f54;
+}
+
+.perfil .tres{
+    background: #1d5372;
+}
+
+.perfil .cuatro{
+    background:#c9567e;
+}
+
+/* EFECTOS BOTONES */
+
+/* CAMBIO DE COLOR CON HOVER*/
+.perfil .uno:hover{
+    transition: 0.5s;
+    background: #59d4f0;
+}
+
+.perfil .dos:hover{
+    transition: 0.5s;
+    background: #f8797d;
+}
+
+.perfil .tres:hover{
+    transition: 0.5s;
+    background: #4881a1;
+}
+
+.perfil .cuatro:hover{
+    transition: 0.5s;
+    background:#df6d95;
+}
+
+
+
+
+/* PINTAR INFORMACIÓN */
+
+/* Información sobre mi */
+.pintarInformacionSobreMi{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sobreMi{
+    transition: 1s;
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
+.ocultarDivSobreMi{
+    display: none;
+}
+
+
+/* Información de proyectos */
+.pintarInformacionProyectos{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proyectos{
+    transition: 1s;
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
+.pintarInformacionProyectos h2{
+    text-align: center;
+}
+.pintarInformacionProyectos p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.pintarInformacionProyectos .imagenProyectos{
+    width: 100%;
+}
+
+.pintarInformacionProyectos img{
+    width: 100%;
+}
+
+
+/* Efecto Keyframe */
+@keyframes mover{
+    from {filter: opacity(0);}
+    to {transform: opacity(1)}
+}
+
+
+
