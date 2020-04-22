@@ -10,8 +10,8 @@ let contadorBoton2 = 0;
 
 divPerfil.addEventListener('click', (e) =>{
     const informacionSobreMi = `<div class="sobreMi" id="sobreMi">
-    <p>Soy Nahuel, Jr. Front-end Developer que<br>
-        busca superarse día a día en programación,<br>
+    <p>Soy Nahuel, Jr.Developer que<br>
+        busca superarse día a día en programación y seguridad informática,<br>
         inicié en este mundo siendo pre-adolescente,<br>
         siempre me sorprendío la cantidad de cosas<br>
         que se pueden hacer con tecnología, así que<br>
@@ -20,9 +20,9 @@ divPerfil.addEventListener('click', (e) =>{
         <br>
         <br>
         Actualmente mis skills más importantes están<br>
-        del lado del front-end, por lo que uso para mis<br>
+        en programación, por lo que uso para mis<br>
         proyectos personales: <span>Html5</span>, <span>Css3</span>, <span>Bootstrap</span>, <br>
-        <span>Flexbox</span>, <span>Javascript</span> y <span>React</span>.
+        <span>Flexbox</span>, <span>Javascript,</span><span>React</span> y </span><span>NodeJs</span>.
      </p>
 </div>`
 
